@@ -150,7 +150,6 @@ void set_enemy(enemy_info *enemy)
     enemy->dx = 0.1; // Fixed speed for all enemies
     enemy->dy = 0.1; // Fixed speed for all enemies
 
-
 }
 
 void set_enemies(enemy_info enemies[])
@@ -256,3 +255,6 @@ void handle_enemies(enemy_info enemies[], player_info *player)
         exit(0); // End the game
     }
 }
+
+
+output: 
